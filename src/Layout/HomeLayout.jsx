@@ -21,13 +21,13 @@ const HomeLayout = () => {
             </section>
             <MContainer>
                 <main className=' grid grid-cols-12 gap-3'>
-                    <aside className='col-span-3'>
+                    <aside className='col-span-3 sticky top-0 h-fit'>
                         <LeftSide></LeftSide>
                     </aside>
                     <section className='main col-span-6'>
                         <Outlet></Outlet>
                     </section>
-                    <aside className='col-span-3'>
+                    <aside className='col-span-3 sticky top-0 h-fit'>
                         <RightSide></RightSide>
                     </aside>
                 </main>

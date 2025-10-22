@@ -7,7 +7,7 @@ const Categories = () => {
     // console.log(categories);
     return (
         <div>
-            <h3 className='font-bold'>All Categories</h3>
+            <h3 className='font-bold text-primary text-xl'>All Categories</h3>
             <div className='grid grid-cols-1'>
                 {categories.map((category) => (<NavLink key={category.id}
                     className='flex justify-center items-center
